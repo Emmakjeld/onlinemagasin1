@@ -1,0 +1,230 @@
+*{margin: 0px;
+padding: 0px;}
+
+/*header + navbar*/
+header{display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-style: normal;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color:rgba(184, 184, 156, 1);
+    }
+
+nav a{text-decoration: none;
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-size: large;
+    color: black;
+    margin-right: 30px;
+    padding-left: 30px;
+    }
+
+ nav a:hover{color:white;}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin-right: 60px;
+}
+
+/*forsiden*/
+#storfirkant{display: flex;
+justify-content: space-around;
+font-family: 'Courier New', Courier, monospace;
+align-items: center;}
+
+#baggrundfirkant{height: 435px;width: 60%;
+background-color:rgba(212, 200, 184, 1);
+padding-top: 100px;
+margin-top: 100px;
+margin-right: 10px;
+margin-left: 120px;
+font-family: serif;
+position: relative;left: 20px;}
+
+#spisebord{
+margin-top: 100px;
+margin-right: 150px;
+position: relative;left: 20px;
+}
+
+/*kort*/
+.kort{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.kort > section{
+    width:350px;
+    height:500px;
+    background-color:rgba(94, 107, 89, 1);
+    padding:10px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: serif;
+    position: relative;top: -20px;
+}
+    
+.pladsholder{
+    width: 350px;
+    height: 350px;
+    padding-top: 25px;
+}
+
+.kortbeige{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+    
+.kortbeige > section{
+    width:350px;
+    height:500px;
+    background-color:rgba(212, 200, 184, 1);
+    padding:10px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: serif;
+}
+    
+.pladsholder{
+    width: 350px;
+    height: 350px;
+    padding-top: 25px;
+}
+
+/*overskrifter*/
+
+h1{font-size: 40px;
+margin-bottom: 15px;
+padding-top: 20px;}
+
+h2{text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 200;}
+
+h3{text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 200;
+    padding-top: 10px;}
+.overskrifttilkort {position: relative;top: -30px;}
+
+#underoverskriftforside{
+font-size: 40px;
+margin-bottom: 30px;
+font-family: serif;
+position: relative;top: -50px;}
+
+#overskrift{padding-left: 70px;
+margin-bottom: 30px;
+position: relative;top: -30px;}
+
+.underoverskrifter{
+color:rgba(94, 107, 89, 1) ;
+text-align: center;
+font-family: "futura-pt", sans-serif;
+font-weight: 600;
+font-style: normal;}
+
+
+/*paragraghs*/
+#tekstoeverst{margin: left 50px;
+position: relative;left: 440px;}
+
+#tekstforside{
+margin-bottom: 10px;
+position: relative;top: -65px;
+left: 70px;}
+
+p{font-size: 14pt;
+position: relative;left: 500px;}
+
+.teksttilkort{position: relative;top: -30px;}
+
+.teksttilgenbrug{position: relative;left: 350px;}
+
+   
+/*billeder*/
+#trebilleder{margin-left: 170px;}
+
+#hjertebilleder{margin-left: 250px;}
+
+#plantegning {margin-left: 440px;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+.billedertiltipsogtricks{margin-left: 565px;
+align-items: center;}
+
+#groentmoebelbillede{margin-left: 525px;}
+
+#maps{margin-left: 420px;
+padding-top: 15px;}
+
+
+
+/*knap*/
+#findinspiration{background-color:rgba(184, 184, 156, 1);
+    font-family: serif;
+    font-weight:bolder;
+    font-size: 10pt;
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-left: 300px;
+    position: relative;top: -25px;}
+
+#findinspiration:hover{color:white}
+
+/*linjer*/
+.groenlinje{ width: 100px;
+height: 2px;
+background-color:rgba(94, 107, 89, 1);
+margin-left: 46%;
+}
+
+.beigelinje{width: 40px;
+    height: 2px;
+    background-color:rgba(212, 200, 184, 1);
+    margin-left: 49%;}
+
+/*footer*/
+.footer{position: relative;  
+left: 10px;  
+bottom: 5px;  
+right: 10px;    
+background-color:rgba(184, 184, 156, 1);  
+color:white;  
+width: 100%;
+z-index: 999;
+margin-top: auto;}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;}
+
+
+/*lister+guides*/
+#guide{margin-left: 33%;}
+#liste{margin-left: 43%;}
+
+
+
+
+
+  
+  
+
+
+
